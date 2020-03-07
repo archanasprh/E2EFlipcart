@@ -1,0 +1,26 @@
+# "#" is used for comment
+#Other than Cucumber there are more BDD Tools 
+# Jbehave, Sarenty, Spec flow, Geb Flow
+#Feature keyword is used to define the functionality
+#Scenario is nothing but the Test Case
+#Tagging is done by '@'withTag-Name before scenario
+#This tagging is needed to define in RunnerClass with "tags" option setting
+#Datadriven Testing is done by passing data for that we use Scenario Outline with Examples:
+#So that Each step from scenario will be executed everytime as per the number of times data is passed in Examples:
+
+#Hooks(i.e. @before and @after annotations defined in class that class is called Hooks class) 
+# and Hooks are working before and after Feature file 
+#Background are working before and after Scenario i.e. within feature file it executes
+
+
+
+#Scenario Outline: Login with invalid credentials
+#Given user should be on login page
+#When user enters invalid <username> and <password>
+#Then error message is displayed on login page
+#Examples:
+#|admin|asdf|
+#|admin1|asdf|
+#|admin2|asdf|
+#|admin3|asdf|
+
